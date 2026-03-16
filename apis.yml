@@ -1,122 +1,52 @@
+aid: pyspark
 name: Apache PySpark
-description: Python API for Apache Spark - A unified analytics engine for large-scale data processing
-image: https://spark.apache.org/images/spark-logo-trademark.png
+description: Python API for Apache Spark - A unified analytics engine for large-scale
+  data processing supporting batch processing, streaming, machine learning, and graph
+  computing.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- big data
-- distributed computing
-- data processing
-- machine learning
-- streaming
-- python
-created: '2024'
-modified: '2024'
-url: https://spark.apache.org/docs/latest/api/python/
+  - Big Data
+  - Distributed Computing
+  - Data Processing
+  - Machine Learning
+  - Streaming
+  - Python
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/pyspark/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis:
-- name: PySpark Core API
-  description: Core Spark functionality including RDDs, SparkContext, and basic operations
-  baseURL: https://spark.apache.org/docs/latest/api/python/reference/
-  humanURL: https://spark.apache.org/docs/latest/api/python/reference/pyspark.html
-  properties:
-  - type: Documentation
-    url: https://spark.apache.org/docs/latest/api/python/reference/pyspark.html
-  - type: API Reference
-    url: https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.SparkContext.html
-  tags:
-  - rdd
-  - spark-context
-  - core
-- name: PySpark SQL
-  description: Structured data processing with DataFrame and SQL operations
-  baseURL: https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/
-  humanURL: https://spark.apache.org/docs/latest/sql-programming-guide.html
-  properties:
-  - type: Documentation
-    url: https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/index.html
-  - type: Getting Started
-    url: https://spark.apache.org/docs/latest/sql-getting-started.html
-  - type: API Reference
-    url: https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.html
-  tags:
-  - dataframe
-  - sql
-  - structured-data
-- name: PySpark Streaming
-  description: Real-time stream processing capabilities
-  baseURL: https://spark.apache.org/docs/latest/api/python/reference/pyspark.streaming/
-  humanURL: https://spark.apache.org/docs/latest/streaming-programming-guide.html
-  properties:
-  - type: Documentation
-    url: https://spark.apache.org/docs/latest/api/python/reference/pyspark.streaming/index.html
-  - type: Programming Guide
-    url: https://spark.apache.org/docs/latest/streaming-programming-guide.html
-  tags:
-  - streaming
-  - real-time
-  - dstream
-- name: PySpark MLlib
-  description: Machine learning library with scalable algorithms
-  baseURL: https://spark.apache.org/docs/latest/api/python/reference/pyspark.mllib/
-  humanURL: https://spark.apache.org/docs/latest/ml-guide.html
-  properties:
-  - type: Documentation
-    url: https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html
-  - type: ML Guide
-    url: https://spark.apache.org/docs/latest/ml-guide.html
-  - type: MLlib Guide
-    url: https://spark.apache.org/docs/latest/mllib-guide.html
-  tags:
-  - machine-learning
-  - mllib
-  - algorithms
-- name: PySpark ML (DataFrame-based)
-  description: DataFrame-based machine learning API
-  baseURL: https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml/
-  humanURL: https://spark.apache.org/docs/latest/ml-pipeline.html
-  properties:
-  - type: Documentation
-    url: https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html
-  - type: Pipeline Guide
-    url: https://spark.apache.org/docs/latest/ml-pipeline.html
-  tags:
-  - machine-learning
-  - pipeline
-  - dataframe
-- name: PySpark GraphX (GraphFrames)
-  description: Graph processing and analysis capabilities
-  baseURL: https://graphframes.github.io/graphframes/docs/_site/
-  humanURL: https://graphframes.github.io/graphframes/docs/_site/index.html
-  properties:
-  - type: Documentation
-    url: https://graphframes.github.io/graphframes/docs/_site/user-guide.html
-  - type: API Reference
-    url: https://graphframes.github.io/graphframes/docs/_site/api/python/index.html
-  tags:
-  - graph
-  - graphframes
-  - network-analysis
-maintainers:
-- name: Apache Software Foundation
-  email: dev@spark.apache.org
-  url: https://spark.apache.org/community.html
+  - aid: pyspark:pyspark-core-api
+    name: PySpark Core API
+    description: Core Spark functionality including RDDs, SparkContext, and basic operations.
+    humanURL: https://spark.apache.org/docs/latest/api/python/reference/pyspark.html
+    tags:
+      - RDD
+      - Spark Context
+    properties:
+      - type: Documentation
+        url: https://spark.apache.org/docs/latest/api/python/reference/pyspark.html
+  - aid: pyspark:pyspark-sql
+    name: PySpark SQL
+    description: Structured data processing with DataFrame and SQL operations.
+    humanURL: https://spark.apache.org/docs/latest/sql-programming-guide.html
+    tags:
+      - DataFrame
+      - SQL
+    properties:
+      - type: Documentation
+        url: https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/index.html
 common:
-- type: Website
-  url: https://spark.apache.org/
-- type: GitHub
-  url: https://github.com/apache/spark
-- type: Installation Guide
-  url: https://spark.apache.org/docs/latest/api/python/getting_started/install.html
-- type: Quick Start
-  url: https://spark.apache.org/docs/latest/quick-start.html
-- type: Downloads
-  url: https://spark.apache.org/downloads.html
-- type: Community
-  url: https://spark.apache.org/community.html
-- type: Mailing Lists
-  url: https://spark.apache.org/community.html#mailing-lists
-- type: Issue Tracker
-  url: https://issues.apache.org/jira/projects/SPARK
-- type: Release Notes
-  url: https://spark.apache.org/releases/
-- type: Security
-  url: https://spark.apache.org/security.html
-include: []
+  - type: Website
+    url: https://spark.apache.org/
+  - type: GitHubOrganization
+    url: https://github.com/apache/spark
+  - type: GettingStarted
+    url: https://spark.apache.org/docs/latest/api/python/getting_started/install.html
+  - type: Community
+    url: https://spark.apache.org/community.html
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
