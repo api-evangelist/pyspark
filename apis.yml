@@ -1,17 +1,15 @@
 aid: pyspark
 name: Apache PySpark
-description: Python API for Apache Spark - A unified analytics engine for large-scale
-  data processing supporting batch processing, streaming, machine learning, and graph
-  computing.
+description: Python API for Apache Spark - A unified analytics engine for large-scale data processing supporting batch processing, streaming, machine learning, and graph computing.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Big Data
-  - Distributed Computing
   - Data Processing
+  - Distributed Computing
   - Machine Learning
-  - Streaming
   - Python
+  - Streaming
 url: >-
   https://raw.githubusercontent.com/api-evangelist/pyspark/refs/heads/main/apis.yml
 created: '2024-01-01'
