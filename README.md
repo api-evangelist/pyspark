@@ -1,28 +1,30 @@
 # Apache PySpark (pyspark)
-Python API for Apache Spark - A unified analytics engine for large-scale data processing
 
-**URL:** [Visit APIs.json URL](https://spark.apache.org/docs/latest/api/python/)
+Python API for Apache Spark - A unified analytics engine for large-scale data processing supporting batch processing, streaming, machine learning, and graph computing.
 
-## Tags:
+**APIs.yml:** [apis.yml](apis.yml)
 
- - big data, distributed computing, data processing, machine learning, streaming, python
+## Tags
+
+- Big Data
+- Data Processing
+- Distributed Computing
+- Machine Learning
+- Python
+- Streaming
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024-01-01
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### PySpark Core API
-Core Spark functionality including RDDs, SparkContext, and basic operations
+
+Core Spark functionality including RDDs, SparkContext, and basic operations.
 
 **Human URL:** [https://spark.apache.org/docs/latest/api/python/reference/pyspark.html](https://spark.apache.org/docs/latest/api/python/reference/pyspark.html)
-
-
-#### Tags:
-
- - rdd, spark-context, core
 
 #### Properties
 
@@ -30,30 +32,21 @@ Core Spark functionality including RDDs, SparkContext, and basic operations
 - [API Reference](https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.SparkContext.html)
 
 ### PySpark SQL
-Structured data processing with DataFrame and SQL operations
+
+Structured data processing with DataFrame and SQL operations.
 
 **Human URL:** [https://spark.apache.org/docs/latest/sql-programming-guide.html](https://spark.apache.org/docs/latest/sql-programming-guide.html)
-
-
-#### Tags:
-
- - dataframe, sql, structured-data
 
 #### Properties
 
 - [Documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/index.html)
 - [Getting Started](https://spark.apache.org/docs/latest/sql-getting-started.html)
-- [API Reference](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.html)
 
 ### PySpark Streaming
-Real-time stream processing capabilities
+
+Real-time stream processing capabilities using DStreams and Structured Streaming.
 
 **Human URL:** [https://spark.apache.org/docs/latest/streaming-programming-guide.html](https://spark.apache.org/docs/latest/streaming-programming-guide.html)
-
-
-#### Tags:
-
- - streaming, real-time, dstream
 
 #### Properties
 
@@ -61,66 +54,41 @@ Real-time stream processing capabilities
 - [Programming Guide](https://spark.apache.org/docs/latest/streaming-programming-guide.html)
 
 ### PySpark MLlib
-Machine learning library with scalable algorithms
+
+Machine learning library with scalable algorithms for classification, regression, clustering, and more.
 
 **Human URL:** [https://spark.apache.org/docs/latest/ml-guide.html](https://spark.apache.org/docs/latest/ml-guide.html)
-
-
-#### Tags:
-
- - machine-learning, mllib, algorithms
 
 #### Properties
 
 - [Documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html)
 - [ML Guide](https://spark.apache.org/docs/latest/ml-guide.html)
-- [MLlib Guide](https://spark.apache.org/docs/latest/mllib-guide.html)
 
 ### PySpark ML (DataFrame-based)
-DataFrame-based machine learning API
+
+DataFrame-based machine learning API with pipelines and feature transformers.
 
 **Human URL:** [https://spark.apache.org/docs/latest/ml-pipeline.html](https://spark.apache.org/docs/latest/ml-pipeline.html)
-
-
-#### Tags:
-
- - machine-learning, pipeline, dataframe
 
 #### Properties
 
 - [Documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html)
 - [Pipeline Guide](https://spark.apache.org/docs/latest/ml-pipeline.html)
 
-### PySpark GraphX (GraphFrames)
-Graph processing and analysis capabilities
-
-**Human URL:** [https://graphframes.github.io/graphframes/docs/_site/index.html](https://graphframes.github.io/graphframes/docs/_site/index.html)
-
-
-#### Tags:
-
- - graph, graphframes, network-analysis
-
-#### Properties
-
-- [Documentation](https://graphframes.github.io/graphframes/docs/_site/user-guide.html)
-- [API Reference](https://graphframes.github.io/graphframes/docs/_site/api/python/index.html)
-
 ## Common Properties
 
 - [Website](https://spark.apache.org/)
-- [GitHub](https://github.com/apache/spark)
-- [Installation Guide](https://spark.apache.org/docs/latest/api/python/getting_started/install.html)
+- [GitHub Organization](https://github.com/apache/spark)
+- [Getting Started](https://spark.apache.org/docs/latest/api/python/getting_started/install.html)
 - [Quick Start](https://spark.apache.org/docs/latest/quick-start.html)
 - [Downloads](https://spark.apache.org/downloads.html)
 - [Community](https://spark.apache.org/community.html)
-- [Mailing Lists](https://spark.apache.org/community.html#mailing-lists)
 - [Issue Tracker](https://issues.apache.org/jira/projects/SPARK)
 - [Release Notes](https://spark.apache.org/releases/)
 - [Security](https://spark.apache.org/security.html)
 
 ## Maintainers
 
-**FN:** Apache Software Foundation
+**FN:** Kin Lane
 
-**Email:** dev@spark.apache.org
+**Email:** kin@apievangelist.com
