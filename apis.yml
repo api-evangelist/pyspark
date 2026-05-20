@@ -77,6 +77,8 @@ apis:
       - type: PipelineGuide
         url: https://spark.apache.org/docs/latest/ml-pipeline.html
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/apachespark
   - type: Website
     url: https://spark.apache.org/
   - type: GitHubOrganization
