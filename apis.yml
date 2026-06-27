@@ -85,7 +85,7 @@ common:
     url: https://github.com/apache/spark
   - type: GettingStarted
     url: https://spark.apache.org/docs/latest/api/python/getting_started/install.html
-  - type: QuickStart
+  - type: GettingStarted
     url: https://spark.apache.org/docs/latest/quick-start.html
   - type: Downloads
     url: https://spark.apache.org/downloads.html
