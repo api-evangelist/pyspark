@@ -77,6 +77,10 @@ apis:
       - type: PipelineGuide
         url: https://spark.apache.org/docs/latest/ml-pipeline.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/pyspark-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/pyspark-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/apachespark
   - type: Website
