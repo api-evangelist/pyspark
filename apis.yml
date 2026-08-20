@@ -19,6 +19,13 @@ tags:
   - Big Data
   - Data Processing
   - Distributed Computing
+  - Machine-Learning
+  - Python
+  - Streaming
+tags_raw:
+  - Big Data
+  - Data Processing
+  - Distributed Computing
   - Machine Learning
   - Python
   - Streaming
@@ -69,6 +76,9 @@ apis:
     description: Machine learning library with scalable algorithms for classification, regression, clustering, and more.
     humanURL: https://spark.apache.org/docs/latest/ml-guide.html
     tags:
+      - Machine-Learning
+      - MLlib
+    tags_raw:
       - Machine Learning
       - MLlib
     properties:
@@ -81,6 +91,9 @@ apis:
     description: DataFrame-based machine learning API with pipelines and feature transformers.
     humanURL: https://spark.apache.org/docs/latest/ml-pipeline.html
     tags:
+      - Machine-Learning
+      - Pipeline
+    tags_raw:
       - Machine Learning
       - Pipeline
     properties:
