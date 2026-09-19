@@ -63,6 +63,9 @@ apis:
     description: Structured data processing with DataFrame and SQL operations.
     humanURL: https://spark.apache.org/docs/latest/sql-programming-guide.html
     tags:
+      - DataFrames
+      - SQL
+    tags_raw:
       - DataFrame
       - SQL
     properties:
@@ -103,7 +106,7 @@ apis:
     humanURL: https://spark.apache.org/docs/latest/ml-pipeline.html
     tags:
       - Machine-Learning
-      - Pipeline
+      - Pipelines
     tags_raw:
       - Machine Learning
       - Pipeline
