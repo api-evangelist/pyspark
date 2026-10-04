@@ -30,7 +30,7 @@ tags:
   - Big Data
   - Data Processing
   - Distributed Computing
-  - Machine-Learning
+  - Machine Learning
   - Python
   - Streaming
 tags_raw:
@@ -40,6 +40,7 @@ tags_raw:
   - Machine Learning
   - Python
   - Streaming
+  - Machine-Learning
 url: >-
   https://raw.githubusercontent.com/api-evangelist/pyspark/refs/heads/main/apis.yml
 created: '2024-01-01'
@@ -90,11 +91,12 @@ apis:
     description: Machine learning library with scalable algorithms for classification, regression, clustering, and more.
     humanURL: https://spark.apache.org/docs/latest/ml-guide.html
     tags:
-      - Machine-Learning
+      - Machine Learning
       - MLlib
     tags_raw:
       - Machine Learning
       - MLlib
+      - Machine-Learning
     properties:
       - type: Documentation
         url: https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html
@@ -105,11 +107,12 @@ apis:
     description: DataFrame-based machine learning API with pipelines and feature transformers.
     humanURL: https://spark.apache.org/docs/latest/ml-pipeline.html
     tags:
-      - Machine-Learning
+      - Machine Learning
       - Pipelines
     tags_raw:
       - Machine Learning
       - Pipeline
+      - Machine-Learning
     properties:
       - type: Documentation
         url: https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html
