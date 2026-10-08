@@ -119,6 +119,12 @@ apis:
       - type: PipelineGuide
         url: https://spark.apache.org/docs/latest/ml-pipeline.html
 common:
+  - type: Plans
+    url: plans/pyspark-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/pyspark-rate-limits.yml
+  - type: FinOps
+    url: finops/pyspark-finops.yml
   - type: VulnerabilityDisclosure
     url: security/pyspark-vulnerability-disclosure.yml
   - type: DomainSecurity
