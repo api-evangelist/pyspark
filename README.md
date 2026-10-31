@@ -1,4 +1,4 @@
-# Apache PySpark (pyspark)
+# Apache PySpark
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,93 +66,107 @@
 
 Python API for Apache Spark - A unified analytics engine for large-scale data processing supporting batch processing, streaming, machine learning, and graph computing.
 
-**APIs.yml:** [apis.yml](apis.yml)
+**Areas:** Big Data · Data Processing · Distributed Computing · Machine Learning · Python · Streaming
 
-## Tags
+## Apache PySpark on APIs.io
 
-- Big Data
-- Data Processing
-- Distributed Computing
-- Machine Learning
-- Python
-- Streaming
+Everything profiled for Apache PySpark is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pyspark/](https://apis.io/providers/pyspark/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (5)
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-28
+- [PySpark Core API](https://apis.io/apis/pyspark/pyspark-core-api/) — Core Spark functionality including RDDs, SparkContext, and basic operations.
+- [PySpark SQL](https://apis.io/apis/pyspark/pyspark-sql/) — Structured data processing with DataFrame and SQL operations.
+- [PySpark Streaming](https://apis.io/apis/pyspark/pyspark-streaming/) — Real-time stream processing capabilities using DStreams and Structured Streaming.
+- [PySpark MLlib](https://apis.io/apis/pyspark/pyspark-mllib/) — Machine learning library with scalable algorithms for classification, regression, clustering, and more.
+- [PySpark ML (DataFrame-based)](https://apis.io/apis/pyspark/pyspark-ml/) — DataFrame-based machine learning API with pipelines and feature transformers.
 
-## APIs
+### Published properties
 
-### PySpark Core API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Core Spark functionality including RDDs, SparkContext, and basic operations.
+#### Security (2)
 
-**Human URL:** [https://spark.apache.org/docs/latest/api/python/reference/pyspark.html](https://spark.apache.org/docs/latest/api/python/reference/pyspark.html)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Properties
+- [Pyspark Domain Security](https://apis.io/security/pyspark/pyspark-domain-security/)
+- [Pyspark Vulnerability Disclosure](https://apis.io/security/pyspark/pyspark-vulnerability-disclosure/)
 
-- [Documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.html)
-- [API Reference](https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.SparkContext.html)
+#### Plans and pricing (1)
 
-### PySpark SQL
+Published plans, tiers and prices.
 
-Structured data processing with DataFrame and SQL operations.
+- [Pyspark Plans Pricing](https://apis.io/plans/pyspark/pyspark-plans-pricing/)
 
-**Human URL:** [https://spark.apache.org/docs/latest/sql-programming-guide.html](https://spark.apache.org/docs/latest/sql-programming-guide.html)
+#### Rate limits (1)
 
-#### Properties
+Published request limits.
 
-- [Documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/index.html)
-- [Getting Started](https://spark.apache.org/docs/latest/sql-getting-started.html)
+- [Pyspark Rate Limits](https://apis.io/rate-limits/pyspark/pyspark-rate-limits/)
 
-### PySpark Streaming
+#### FinOps (1)
 
-Real-time stream processing capabilities using DStreams and Structured Streaming.
+What the API costs to run, by operation.
 
-**Human URL:** [https://spark.apache.org/docs/latest/streaming-programming-guide.html](https://spark.apache.org/docs/latest/streaming-programming-guide.html)
+- [Pyspark Finops](https://apis.io/finops/pyspark/pyspark-finops/)
 
-#### Properties
+## Where to find this API
 
-- [Documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.streaming/index.html)
-- [Programming Guide](https://spark.apache.org/docs/latest/streaming-programming-guide.html)
-
-### PySpark MLlib
-
-Machine learning library with scalable algorithms for classification, regression, clustering, and more.
-
-**Human URL:** [https://spark.apache.org/docs/latest/ml-guide.html](https://spark.apache.org/docs/latest/ml-guide.html)
-
-#### Properties
-
-- [Documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html)
-- [ML Guide](https://spark.apache.org/docs/latest/ml-guide.html)
-
-### PySpark ML (DataFrame-based)
-
-DataFrame-based machine learning API with pipelines and feature transformers.
-
-**Human URL:** [https://spark.apache.org/docs/latest/ml-pipeline.html](https://spark.apache.org/docs/latest/ml-pipeline.html)
-
-#### Properties
-
-- [Documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.ml.html)
-- [Pipeline Guide](https://spark.apache.org/docs/latest/ml-pipeline.html)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://spark.apache.org/)
-- [GitHub Organization](https://github.com/apache/spark)
-- [Getting Started](https://spark.apache.org/docs/latest/api/python/getting_started/install.html)
-- [Quick Start](https://spark.apache.org/docs/latest/quick-start.html)
-- [Downloads](https://spark.apache.org/downloads.html)
-- [Community](https://spark.apache.org/community.html)
-- [Issue Tracker](https://issues.apache.org/jira/projects/SPARK)
-- [Release Notes](https://spark.apache.org/releases/)
+- [Getting started](https://spark.apache.org/docs/latest/api/python/getting_started/install.html)
 - [Security](https://spark.apache.org/security.html)
+- [GitHub](https://github.com/apache/spark)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 17.8** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pyspark/](https://apis.io/providers/pyspark/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache PySpark: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pyspark/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
